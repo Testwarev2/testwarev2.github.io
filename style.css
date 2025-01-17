@@ -1,0 +1,100 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #121212;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #1f1f1f;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  color: #ff66cc;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header ul li {
+  margin-left: 1rem;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+header ul li a:hover {
+  color: #ff66cc;
+}
+
+#hero {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+#hero h1 span {
+  color: #ff66cc;
+}
+
+#hero .ascii-art {
+  margin: 1rem auto;
+  max-width: 200px;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ff66cc;
+}
+
+.contact-btn {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  background: #ff66cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  transition: background 0.3s;
+}
+
+.contact-btn:hover {
+  background: #ff33aa;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #1f1f1f;
+  color: #fff;
+}
