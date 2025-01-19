@@ -10,8 +10,6 @@ body {
   color: #fff;
   background-color: #121212;
   line-height: 1.6;
-  margin: 0;
-  padding: 0;
 }
 
 header {
@@ -64,6 +62,12 @@ header ul li a:hover {
 #hero .ascii-art {
   margin: 1rem auto;
   max-width: 200px;
+  border-radius: 10px;
+}
+
+#hero p {
+  color: #bbb;
+  font-size: 1.2rem;
 }
 
 section {
@@ -75,6 +79,10 @@ section h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
   color: #3399ff; /* Section headers in blue */
+}
+
+section p {
+  color: #ddd;
 }
 
 .contact-btn {
@@ -97,4 +105,8 @@ footer {
   padding: 1rem 0;
   background: #1f1f1f;
   color: #fff;
+}
+
+footer p {
+  color: #aaa;
 }
