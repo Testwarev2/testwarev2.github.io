@@ -23,7 +23,7 @@ header {
 }
 
 header .logo {
-  color: #ff66cc;
+  color: #3399ff; /* Blue color */
   font-size: 1.5rem;
   text-decoration: none;
 }
@@ -44,7 +44,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-  color: #ff66cc;
+  color: #3399ff; /* Blue hover effect */
 }
 
 #hero {
@@ -58,7 +58,7 @@ header ul li a:hover {
 }
 
 #hero h1 span {
-  color: #ff66cc;
+  color: #3399ff; /* Blue for your name */
 }
 
 #hero .ascii-art {
@@ -74,13 +74,13 @@ section {
 section h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #ff66cc;
+  color: #3399ff; /* Section headers in blue */
 }
 
 .contact-btn {
   display: inline-block;
   padding: 0.5rem 1.5rem;
-  background: #ff66cc;
+  background: #3399ff; /* Blue button */
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -89,7 +89,7 @@ section h2 {
 }
 
 .contact-btn:hover {
-  background: #ff33aa;
+  background: #1a73e8; /* Lighter blue on hover */
 }
 
 footer {
