@@ -6,9 +6,13 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   color: #fff;
-  background-color: #121212;
+  background-color: #1d3557; /* Dark cartoony blue */
+  background-image: url('https://example.com/pixel-pattern.png'); /* Replace with a pixelated background image URL */
+  background-size: cover; /* Ensure the background stretches to fit */
+  background-repeat: no-repeat;
+  background-position: center;
   line-height: 1.6;
 }
 
